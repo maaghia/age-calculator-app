@@ -18,8 +18,8 @@ module.exports = {
     },
   },
   screens: {
-    'md': '375pxpx',
-    // => @media (min-width: 987px) { ... }
+    'md': '375px',
+    // => @media (min-width: 375px) { ... }
   },
   daisyui: {
     themes: ["light", "dark", "cupcake"],
