@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.calcard{
+  border-bottom-right-radius: 100px;
+}
