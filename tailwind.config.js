@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      'md': '600px',
+      // => @media (min-width: 600px) { ... }
+    },
     extend: {
       colors: {
         'white': 'hsl(0, 0%, 100%)',
@@ -17,10 +21,7 @@ module.exports = {
       },
     },
   },
-  screens: {
-    'md': '375px',
-    // => @media (min-width: 375px) { ... }
-  },
+  
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },
